@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { useGlobalContext } from "../context/context";
 import Settings from "./dropdowns/Settings.js";
 import { FiChevronUp, FiChevronDown } from "react-icons/fi";
-import { GoMarkGithub } from "react-icons/go";
+import { FaGithub } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import logo from "../images/logo.png";
 import styled from "styled-components";
@@ -70,7 +70,7 @@ const Navbar = () => {
 									target='_blank'
 									className='react-icon'
 									aria-label='github icon'>
-									<GoMarkGithub />
+									<FaGithub />
 								</a>
 							</li>
 							<li>
